@@ -1,0 +1,27 @@
+{
+  "name": "@dvun0g/prettier-config",
+  "version": "0.0.6",
+  "main": ".prettierrc.json",
+  "prettier": ".prettierrc.json",
+  "type": "module",
+  "files": [
+    ".prettierrc.json",
+    ".prettierrc.js",
+    ".prettierignore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvun0g/prettier-config.git"
+  },
+  "scripts": {
+    "prettier": "prettier --write '**/*.{js,ts,tsx,json}'"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "@ianvs/prettier-plugin-sort-imports": "4.1.0"
+  },
+  "peerDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.0",
+    "prettier": "3.1.1"
+  }
+}
